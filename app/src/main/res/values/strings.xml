@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Graded Reader Quiz</string>
+    <string name="question_1">1. Who did Alice meet in Wonderland?</string>
+    <string name="question_1_answer_1">a squirrel</string>
+    <string name="question_1_answer_2">a dormouse</string>
+    <string name="question_1_answer_3">a caterpillar</string>
+    <string name="question_1_answer_4">a princess </string>
+    <string name="question_1_answer_5">a hatter</string>
+    <string name="question_1_answer_6">a cat</string>
+    <string name="question_2">2. Who said the sentence below in the story?</string>
+    <string name="question_2_1">“It´s always six o´clock here.”</string>
+    <string name="question_2_answer_1">the Queen</string>
+    <string name="question_2_answer_2">the Caterpillar</string>
+    <string name="question_2_answer_3">the Hatter</string>
+    <string name="question_2_answer_4">the Rabbit</string>
+    <string name="question_3">3. Complete the sentence below.</string>
+    <string name="question_3_1">She _____ the rabbit down to a hole and found herself in a hall with doors.</string>
+    <string name="question_3_answer_1">walked</string>
+    <string name="question_3_answer_2">talked</string>
+    <string name="question_3_answer_3">fell</string>
+    <string name="question_3_answer_4">chased</string>
+    <string name="question_4">4. What happened when Alice ate the mushroom?</string>
+    <string name="question_4_answer_1">She became smaller or larger.</string>
+    <string name="question_4_answer_2">She could talk to animals.</string>
+    <string name="question_4_answer_3">She became invisible.</string>
+    <string name="question_4_answer_4">She could jump over the trees.</string>
+    <string name="question_5">5. Why did the Duchess push the baby into Alice`s arms and hurry out of the room?</string>
+    <string name="question_5_answer_1">as she wanted to get some food to cook</string>
+    <string name="question_5_answer_2">because the Queen invited her to play croquet</string>
+    <string name="question_5_answer_3">because the Hatter invited her to drink tea</string>
+    <string name="question_5_answer_4"> as she is in a hurry to meet the Cheshire Cat</string>
+    <string name="question_6">6. Is the sentence below true or false?</string>
+    <string name="question_6_1"> The Knave of Hearts was accused of stealing the mallets.</string>
+    <string name="question_6_answer_1">True</string>
+    <string name="question_6_answer_2">False</string>
+    <string name="question_7">7. What happened at the end of the story?</string>
+    <string name="question_7_answer_1">The knave of Hearts was beheaded at the end of his trial.</string>
+    <string name="question_7_answer_2">Alice saved the Knave of Hearts and helped him get out of the garden.</string>
+    <string name="question_7_answer_3">Alice understood that her adventures were a fantastic dream.</string>
+    <string name="question_7_answer_4">The Cheshire Cat helped Alice find a way back to home.</string>
+    <string name="user_name_empty_warning">"The field with the name should be completed!"</string>
+    <string name="title">Alice´s Adventures in Wonderland</string>
+    <string name="stage_2">Stage 2</string>
+    <string name="write_your_name_here">Write your name here</string>
+    <string name="start">START</string>
+    <string name="score_message"> %1$s, you have %2$d out of 10 points.</string>
+    <string name="share_message"> %1$s scored %2$d out of 10 points on Graded Reader Quiz!.</string>
+    <string name="message_less_than_4">" You should consider reading the story again!"</string>
+    <string name="message_less_than_8">" No worries, you can check your answers and do better next time."</string>
+    <string name="message_more_than_7">" Good job! You are a great reader!"</string>
+    <string name="message_correct_answers">" You can see the correct answers in green color."</string>
+    <string name="graded_reader_quiz">Graded Reader Quiz</string>
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

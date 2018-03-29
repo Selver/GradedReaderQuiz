@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/scrollViewStyleMain">
+
+        <LinearLayout
+            android:id="@+id/layout1"
+            style="@style/mainLayoutStyle2">
+
+            <TextView
+                style="@style/titleStyle"
+                android:paddingTop="@dimen/dimen16"
+                android:text="@string/graded_reader_quiz"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_26"/>
+
+            <TextView
+                android:paddingTop="@dimen/dimen4"
+                android:id="@+id/title"
+                android:padding="@dimen/dimen8"
+                style="@style/titleStyle" />
+
+            <TextView style="@style/textViewStyleMain" />
+
+            <EditText
+                android:id="@+id/edit_text_name"
+                style="@style/editTextStyleMain" />
+
+            <Button
+                android:id="@+id/start_button"
+                style="@style/startButtonStyle" />
+
+        </LinearLayout>
+
+</ScrollView>
+

@@ -1,0 +1,208 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#c51162</item>
+        <item name="colorPrimaryDark">#8e0038</item>
+        <item name="colorAccent">#fd558f</item>
+    </style>
+
+    <style name="scrollViewStyleMain">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:fillViewport">true</item>
+        <item name="android:scrollbarStyle">insideInset</item>
+        <item name="android:background">@drawable/alice_rabbit_hole</item>
+    </style>
+
+    <style name="scrollViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:fillViewport">true</item>
+        <item name="android:scrollbarStyle">insideInset</item>
+    </style>
+
+    <style name="titleStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">serif</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:text">@string/title</item>
+        <item name="android:textColor">@color/color_primary_dark</item>
+        <item name="android:textSize">@dimen/text_size_36</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/tintedColor</item>
+    </style>
+
+    <style name="textViewStyleMain">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">serif</item>
+        <item name="android:text">@string/stage_2</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_marginBottom">@dimen/dimen80</item>
+        <item name="android:paddingBottom">@dimen/dimen8</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/text_size_24</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/tintedColor</item>
+    </style>
+
+    <style name="editTextStyleMain">
+        <item name="android:layout_width">@dimen/dimen224</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">serif</item>
+        <item name="android:padding">@dimen/dimen4</item>
+        <item name="android:hint">@string/write_your_name_here</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/text_size_20</item>
+        <item name="android:background">@color/tintedColor</item>
+        <item name="android:inputType">textCapSentences</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="android:layout_marginTop">@dimen/dimen42</item>
+    </style>
+
+    <style name="startButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:layout_marginTop">@dimen/dimen126</item>
+        <item name="android:background">@drawable/roundedbutton</item>
+        <item name="android:fontFamily">serif</item>
+        <item name="android:text">@string/start</item>
+        <item name="android:textColor">@color/colorButtonNormalText</item>
+        <item name="android:textSize">@dimen/text_size_36</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="cardViewStyle" parent="CardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_gravity">top</item>
+        <item name="android:longClickable">true</item>
+        <item name="cardCornerRadius">@dimen/dimen16</item>
+        <item name="cardElevation">@dimen/dimen4</item>
+        <item name="cardUseCompatPadding">true</item>
+    </style>
+
+    <style name="mainLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">@dimen/dimen16</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="mainLayoutStyle2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="layoutStyle3">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="textViewStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginTop">@dimen/dimen8</item>
+        <item name="android:layout_marginBottom">@dimen/dimen8</item>
+        <item name="android:textSize">@dimen/text_size_20</item>
+        <item name="android:fontFamily">"sans-serif"</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="checkBoxStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_18</item>
+        <item name="android:textColor">@color/textColorSecondary</item>
+    </style>
+
+    <style name="radioGroupStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_marginBottom">@dimen/dimen8</item>
+    </style>
+
+    <style name="radioButtonStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">@dimen/text_size_18</item>
+        <item name="android:textColor">@color/textColorSecondary</item>
+    </style>
+
+    <style name="buttonStyle">
+        <item name="android:layout_width">@dimen/button_layout_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorButtonNormalText</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="submitButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/dimen70</item>
+        <item name="android:layout_marginTop">@dimen/dimen20</item>
+        <item name="android:background">@drawable/roundedbutton</item>
+        <item name="android:fontFamily">serif</item>
+        <item name="android:paddingLeft">@dimen/dimen10</item>
+        <item name="android:paddingRight">@dimen/dimen10</item>
+        <item name="android:text">Submit Quiz</item>
+        <item name="android:textColor">@color/colorButtonNormalText</item>
+        <item name="android:textSize">@dimen/text_size_28</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="restartButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/dimen20</item>
+        <item name="android:layout_marginTop">@dimen/dimen8</item>
+        <item name="android:layout_marginBottom">@dimen/dimen32</item>
+        <item name="android:background">@drawable/roundedbutton</item>
+        <item name="android:paddingLeft">@dimen/dimen10</item>
+        <item name="android:paddingRight">@dimen/dimen10</item>
+        <item name="android:fontFamily">serif</item>
+        <item name="android:text">Restart</item>
+        <item name="android:textColor">@color/colorButtonNormalText</item>
+        <item name="android:textSize">@dimen/text_size_28</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+
+    <style name="shareButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/dimen32</item>
+        <item name="android:layout_marginTop">@dimen/dimen8</item>
+        <item name="android:layout_marginBottom">@dimen/dimen32</item>
+        <item name="android:background">@drawable/rounded_button_share</item>
+        <item name="android:fontFamily">serif</item>
+        <item name="android:paddingLeft">@dimen/dimen10</item>
+        <item name="android:paddingRight">@dimen/dimen10</item>
+        <item name="android:text">Share score</item>
+        <item name="android:textColor">@color/colorButtonNormalText</item>
+        <item name="android:textSize">@dimen/text_size_28</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+
+    <style name="messageViewStyle">
+        <item name="android:layout_marginBottom">@dimen/dimen24</item>
+        <item name="android:layout_marginLeft">@dimen/dimen16</item>
+        <item name="android:layout_marginRight">@dimen/dimen8</item>
+        <item name="android:layout_marginTop">@dimen/dimen16</item>
+        <item name="android:textSize">@dimen/text_size_20</item>
+        <item name="android:textColor">@color/color_primary</item>
+    </style>
+</resources>

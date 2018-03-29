@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorButtonNormal">#CDDC39</color>
+    <color name="colorButtonNormalText">#FFFFFF</color>
+    <color name="correctAnswers">#CDDC39</color>
+    <color name="textColorPrimary">#212121</color>
+    <color name="textColorSecondary">#757575</color>
+    <color name="color_primary_dark">#8e0038</color>
+    <color name="color_primary">#c51162</color>
+    <color name="black">#000000</color>
+    <color name="tintedColor">#80FFFFFF</color>
+</resources>
+
+
+
